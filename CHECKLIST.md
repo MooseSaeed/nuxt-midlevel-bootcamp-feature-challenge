@@ -1,10 +1,10 @@
-- The `admin-layout` is only activated on the `/dashboard` page.
 - The `/meals` route is working and rendering all meals.
 - The `/meals/:id` dynamic route is working and rendeirng the corrosponding meal.
 - In case the meal is not found in `/meals/:id`, the error page should render the status code and message.
 - The error page is using the default layout.
 - The button in the error page clears the error and navigates the user to the homepage.
 - When the `/forbidden` route is requested, it will redirect the user to the homepage.
+- The `admin-layout` is only activated on the `/dashboard` page.
 - The `/dashboard` route is rendering all meals.
 - Users can delete meals from the dashboard.
 - The site has a default title and description.
