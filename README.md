@@ -62,6 +62,8 @@ This challenge focuses on building a robust food recipes Nuxt app with dynamic r
 
 > 💡 HINT: The blur effect styles are already in place.
 
+![Screenshot 2](https://github.com/user-attachments/assets/55fec298-b633-4cfe-bf2a-1ff8d2a8fc6b)
+
 ## Other Considerations
 
 - If you see the `data-test` attribute in the boilerplate don't remove it. If you remove it, your code may be invalid for the certificate.
