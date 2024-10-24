@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-bootcamp-level2-feature-challenge",
+  "private": true,
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest run",
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^1.5.6",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@pinia/nuxt": "^0.5.5",
+    "nuxt": "^3.13.2",
+    "pinia": "^2.2.4",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/material-symbols": "^1.2.5",
+    "@nuxt/eslint": "^0.6.0",
+    "eslint": "^9.13.0",
+    "typescript": "^5.6.3"
+  }
+}
