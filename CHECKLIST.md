@@ -8,7 +8,4 @@
 - The `/dashboard` route is rendering all meals.
 - Users can delete meals from the dashboard.
 - The site has a default title and description.
-- The title changes in the `/meals/:id` route to use the title of the meal.
-- The "Saved" box shows the correct count when the `+` sign is clicked in the `/meals` page.
-- The "Saved" box count doesn't reset on navigation.
-- The `blur` transition is applied on navigation for both pages and layout.
+- The `blur` transition is applied on page changes.

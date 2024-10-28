@@ -1,12 +1,9 @@
-<script setup>
-const count = 0;
-</script>
+<script setup></script>
 
 <template>
   <NuxtLoadingIndicator />
 
   <NuxtLayout>
-    <div class="saved">Saved ({{ count }})</div>
     <ResetButton />
     <NuxtPage />
   </NuxtLayout>

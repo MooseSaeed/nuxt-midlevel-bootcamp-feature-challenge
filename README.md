@@ -49,20 +49,10 @@ This challenge focuses on building a robust food recipes Nuxt app with dynamic r
    - Title: `"Tasty Meals"`
    - Description: `"A collection of the best food in the world"`
 
-8. The page `<title>` for the `/meals/:id` route should update to display the specific meal's title.
-
-9. Use the `savedMeals` Pinia store to set a global state for the saved meals count:
-
-   - The div with the class `saved` in `app.vue` should accuretly render the count of meals saved.
-   - The `<MealList />` component in the `/meals` page is emitting a `save-meal` event with the meal's `id` as its payload. Use that event to update the global state.
-
-10. Apply page and layout transitions:
-    - Define a page transition named `blur` and it should have the mode `out-in`.
-    - Define a layout transition named `blur` and it should have the mode `out-in`.
+8. Apply page transitions:
+   - Define a page transition named `blur` and it should have the mode `out-in`.
 
 > 💡 HINT: The blur effect CSS styles are already in place.
-
-![Screenshot 2](https://github.com/user-attachments/assets/55fec298-b633-4cfe-bf2a-1ff8d2a8fc6b)
 
 ## Other Considerations
 

@@ -14,12 +14,6 @@ defineEmits<{
   <div class="grid grid-cols-2">
     <template v-for="meal in meals" :key="meal.id">
       <div class="max-w-sm bg-gradient-to-r to-sky-950/25 from-sky-700/25 rounded-lg m-5 relative">
-        <div
-          class="bg-white border-2 border-blue-800 rounded-full w-9 h-9 hover:scale-110 transition-all cursor-pointer flex justify-center items-center absolute top-4 right-4"
-          @click="$emit('saveMeal', meal.id)"
-        >
-          <Icon name="material-symbols:add" size="30" :style="{ backgroundColor: 'black' }" />
-        </div>
         <div class="h-40">
           <img
             class="rounded-t-lg w-full h-full object-cover"
