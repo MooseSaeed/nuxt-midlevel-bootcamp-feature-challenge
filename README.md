@@ -1,7 +1,7 @@
 ---
 difficulty: 1
 tags: codechallenge, Exercise Challenge, Nuxt 3
-openFiles: pages/index.vue,[path to all files that should open in editor by default during exam]
+openFiles: pages/index.vue
 ---
 
 # Tasty Meals
@@ -58,15 +58,15 @@ This challenge focuses on building a robust food recipes Nuxt app with dynamic r
     - Define a page transition named `blur` and it should have the mode `out-in`.
     - Define a layout transition named `blur` and it should have the mode `out-in`.
 
-> 💡 HINT: The blur effect styles are already in place.
+> 💡 HINT: The blur effect CSS styles are already in place.
 
 ## Other Considerations
 
 - If you see the `data-test` attribute in the boilerplate don't remove it. If you remove it, your code may be invalid for the certificate.
--
+
 - Do not delete or modify the `/server/plugins/doNotChange.ts` file.
 
-- TailwindCSS is preinstalled and with default config. It might be helpful for you if you want to have some styles. Or if you'd like to see a pretty result as you develop. You can use the following semantic classes that have been included: `TODO-class-1`, `TODO-class-2`
+- TailwindCSS is preinstalled and with default config. It might be helpful for you if you want to have some styles. Or if you'd like to see a pretty result as you develop.
 
 - It is NOT necessary to have the exact same styles as in the GIF above, or even any styles at all.
 

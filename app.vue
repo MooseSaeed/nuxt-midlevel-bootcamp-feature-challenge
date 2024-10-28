@@ -1,5 +1,5 @@
 <script setup>
-const { count } = storeToRefs(useSavedMealsStore());
+const count = 0;
 </script>
 
 <template>
