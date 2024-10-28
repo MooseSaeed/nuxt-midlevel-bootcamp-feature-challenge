@@ -34,7 +34,7 @@ This challenge focuses on building a robust food recipes Nuxt app with dynamic r
 
    - Create a middleware that navigates the user to the homepage if they tried to visit `/forbidden`.
 
-![screenshot](https://github.com/user-attachments/assets/86561305-8f9f-4934-9d31-bd87710dc438)
+![meal-meals-compressed](https://github.com/user-attachments/assets/e8b9676b-f73a-44c8-aaae-2c6ea8c2d7b0)
 
 5. Activate the `admin-layout` only for the `/dashboard` page.
 
@@ -53,6 +53,8 @@ This challenge focuses on building a robust food recipes Nuxt app with dynamic r
    - Define a page transition named `blur` and it should have the mode `out-in`.
 
 > 💡 HINT: The blur effect CSS styles are already in place.
+
+![dashboard-compressed](https://github.com/user-attachments/assets/f9f90fb5-4b0d-4ecd-999e-e6758b030b70)
 
 ## Other Considerations
 
