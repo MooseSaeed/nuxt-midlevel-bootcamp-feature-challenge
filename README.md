@@ -22,7 +22,8 @@ This challenge focuses on building a robust food recipes Nuxt app with dynamic r
    - Get the slug from the route.
    - Get the meal data from the `/api/meals` endpoint.
    - The endpoint expects a slug query string with the value of the slug. Pass the slug to get the meal data.
-   - Create and throw a Nuxt error with the error status code and message.
+   - In case an error returend, handle the error by creating and throwing a Nuxt error with the error status code and message.
+   - Use the `<MealContent />` component to render the meal info and pass the meal data to the `meal` prop.
 
 3. Create an error page:
 
